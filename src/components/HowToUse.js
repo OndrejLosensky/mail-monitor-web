@@ -11,14 +11,17 @@ const HowToUse = () => {
         <div className='pt-8'>
           <Description descriptionText="MailMonitor is menu bar MacOS application and you can access by clicking on it"/>
           <Description descriptionText="with the app launched number of unseen e-mails will be displayed all the time"/>
-          <img className='rounded-lg mx-auto mt-8 w-[450px]' src={howToUse} alt='Image'></img>
+          <img className='rounded-lg mx-auto mt-8 w-[450px]' src={howToUse} alt='Screeshot'></img>
         </div>
       </div>
 
       <div className='pt-16'>
-        <Title titleText="setting preferences"/>
+        <Title titleText="About MailMonitor"/>
         <div className='pt-8'>
-          <Description descriptionText="You can toggle auto-launch on login or automatical email reading/exporting daily"/>
+          <Description descriptionText="Mail monitor is made with python using rumps library and gmailAPI"/>
+          <Description descriptionText="You can export your whole inbox into Excel file to save it or"/>
+          <Description descriptionText="you can set it to automatically mark your emails as" />
+          <Description descriptionText="seen every 24hours / 7days / 30days"/>
         </div>
       </div>
 
